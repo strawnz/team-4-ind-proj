@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(cors());
 
-// GET test to Postman
+// GET test to Postman 
 app.get('/', (req, res) => {
     res.send('This is a GET request to root');
 });
