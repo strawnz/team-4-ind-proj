@@ -1,0 +1,23 @@
+@use './variables.scss' as *;
+
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+@mixin no-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}

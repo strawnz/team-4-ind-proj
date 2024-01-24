@@ -1,0 +1,28 @@
+@use './typography.scss' as *;
+@use './variables.scss' as *;
+@use './mixins.scss' as *;
+@forward './typography.scss';
+@forward './variables.scss';
+@forward './mixins.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    @include no-margin-padding;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
