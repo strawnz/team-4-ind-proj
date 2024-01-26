@@ -1,10 +1,11 @@
+import heroImage from "../../assets/images/icons/Rectangle-1.svg";
 import './HomePage.scss';
 
 function HomePage() {
     return (
         <>
             <main>
-                <h1>Royal Caribbean Placeholder</h1>
+                <img src={heroImage} alt="Hero" className="hero-image" />
             </main>
         </>
     );

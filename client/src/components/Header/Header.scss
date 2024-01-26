@@ -1,1 +1,22 @@
 @use '../../styles/partials/global.scss' as *;
+
+.header {
+    &__secondary {
+        background-color: $navy-blue;
+        color: #FFF;
+        display: flex;
+    }
+        &__text {
+            color: #FFF;
+            font-family: "Proxima Nova";
+            font-size: 0.75rem; 
+            line-height: 0.9rem;    
+            letter-spacing: 0.125rem;
+            text-transform: uppercase;
+    }
+}
+
+
+.country {
+    display: flex;
+}
