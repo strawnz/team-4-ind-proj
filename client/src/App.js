@@ -1,10 +1,17 @@
-import './App.scss';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.scss";
+import React from "react";
+import HomePage from "./pages/HomePage/HomePage";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Control Alt Defeat's Industry Project Placeholder </h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
