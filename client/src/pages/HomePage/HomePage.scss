@@ -1,25 +1,30 @@
 @use '../../styles/partials/global.scss' as *;
 
-.hero-image {
+.heroimage {
     width: 100%;
     height: 30vh;
     background-position: center;
     background-image: url(../../assets/images/icons/hero.svg);
     background-repeat: no-repeat;
     padding-left: 2rem;
-    color: white;
 
     &__header {
-        height: 10rem;
+        color: #FFF;
+        font-family: Impact;
+        font-size: 4.14844rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 6rem;
+        padding-top: 4.25rem;
+    }
+
+    &__p {
+        color: #FFF;
+        font-family: "Proxima Nova";
+        font-size: 1.6875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.025rem;
+        letter-spacing: 0.125rem;
     }
 }
-
-// p {
-//     font-family: "Proxima Nova";
-//     font-size: 1.6875rem;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: 2.025rem; /* 120% */
-//     letter-spacing: 0.125rem;
-//     text-transform: uppercase;
-// }

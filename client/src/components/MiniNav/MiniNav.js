@@ -9,7 +9,7 @@ function MiniNav() {
                 <Link to="/" className='mini-nav__link'>NEW TO CRUISE</Link>
             </div>
             <div className="mini-nav__item">
-                <Link href="#">DESTINATIONS</Link>
+                <Link to="/destinations">DESTINATIONS</Link>
             </div>
             <div className="mini-nav__item">
                 <Link href="#">ACCOMMODATIONS</Link>

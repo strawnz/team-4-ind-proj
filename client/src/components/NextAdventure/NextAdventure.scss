@@ -1,0 +1,30 @@
+@use '../../styles/partials/global.scss' as *;
+
+.next-adventure {
+    padding: 12rem 11.5rem;
+    text-transform: capitalize;
+    background-image: url(../../assets/images/icons/discover-banner.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 400;
+        color: #15264C;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        background-color: #FDBE11;
+        padding: 14px 40px;
+        border: none;
+        border-radius: 5px;
+        // font-family: ProximaNova_light, 'roboto', sans-serif ;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 1.6875;
+        color: #020367;
+        ;
+    }
+}

@@ -1,0 +1,34 @@
+@use '../../styles/partials/global.scss' as *;
+
+.first-cruise {
+    @include flex-column;
+    padding: 7rem; 
+
+    &__text-container {
+        @include flex-column;
+    }
+
+    &__title {
+        color: #15264C;
+        text-align: center;
+        font-family: 'Impact';
+        font-size: 2.80469rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 4.4rem;
+    }
+
+    &__body {
+        color: #4A4A4A;
+        text-align: center;
+        font-family: "Proxima Nova";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.6875rem;
+    }
+
+    &__image-container {
+        display: flex;
+    }
+}
