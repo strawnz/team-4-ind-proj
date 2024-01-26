@@ -2,7 +2,7 @@
 
 .first-cruise {
     @include flex-column;
-    padding: 7rem; 
+    padding: 7rem 7rem 5rem; 
 
     &__text-container {
         @include flex-column;
@@ -30,5 +30,6 @@
 
     &__image-container {
         display: flex;
+        justify-content: center;
     }
 }

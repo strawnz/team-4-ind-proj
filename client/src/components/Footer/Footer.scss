@@ -1,28 +1,38 @@
 @use "../../styles/partials/global.scss" as *;
 
 .footer {
-    background-color: #001791;
+    background-color: #0C214D;
+    opacity: 95%;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 19.5625rem;
+    padding-bottom: 40px;
     align-items: center;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
-}
+
+        &__container {
+            width: 80%;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+            margin-bottom: 30px;
+        }
+    }
+
 
 .rcglogo {
     width: 15.33313rem;
     height: 6.24969rem;
     flex-shrink: 0;
     align-items: center;
-    margin-top: 1rem;
+    position: relative;
+    bottom: -30px;
+    background-color: #0C214D;
+    box-sizing: content-box;
+    padding: 10px;
 
-    ::after {
-        border-top: 1px solid rgba(16, 21, 75, 0.4);
-    }
-
-    ::before {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.40);
+    &::before,
+    &::after {
+        border-bottom: 1px solid grey;
     }
 }
 
@@ -30,12 +40,14 @@
     width: 12.89938rem;
     height: 4.16106rem;
     flex-shrink: 0;
+    margin-right: 2rem;
 }
 
 .celebritylogo {
     width: 12.89938rem;
     height: 4.16106rem;
     flex-shrink: 0;
+    margin-right: 2rem;
 }
 
 .silversealogo {
