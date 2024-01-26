@@ -22,10 +22,18 @@ function DestinationsCards() {
         </div>
         <div className="destinations-bottom">
           <div className="destinations-bottom__left">
+            <div className="destinations-bottom__ship" >
+
+            
             <img src={shipIcon} alt="ship icon" />
-            <h2 className="destinations-bottom__heading" >Symphony of the Seas</h2>
-            <p className="destinations-bottom__body" >ROUNDTRIP FROM: Cape Liberty (New York), New Jersey</p>
-            <p className="destinations-bottom__body" ></p>
+            <h2 className="destinations-bottom__heading">
+              Symphony of the Seas
+              </h2>
+              </div>
+            <p className="destinations-bottom__body">
+              ROUNDTRIP FROM:<span> Cape Liberty (New York), New Jersey</span>
+            </p>
+            <p className="destinations-bottom__body"></p>
           </div>
         </div>
       </div>
@@ -45,11 +53,21 @@ function DestinationsCards() {
             <h2>$1,799</h2>
           </div>
         </div>
-        <div className="destinations-bottom__left">
-          <img src={shipIcon} alt="ship icon" />
-          <h2 className="destinations-bottom__heading" >Symphony of the Seas</h2>
-          <p className="destinations-bottom__body" >ROUNDTRIP FROM: Orlando (Port Canaveral), Florida</p>
-          <p className="destinations-bottom__body" ></p>
+        <div className="destinations-bottom">
+          <div className="destinations-bottom__left">
+            <div className="destinations-bottom__ship" >
+
+            
+            <img src={shipIcon} alt="ship icon" />
+            <h2 className="destinations-bottom__heading">
+              Symphony of the Seas
+              </h2>
+              </div>
+            <p className="destinations-bottom__body">
+              ROUNDTRIP FROM: <span>Orlando (Port Canaveral), Florida</span>
+            </p>
+            <p className="destinations-bottom__body"></p>
+          </div>
         </div>
       </div>
       <div>
@@ -65,11 +83,21 @@ function DestinationsCards() {
             <h2>$1,799</h2>
           </div>
         </div>
-        <div className="destinations-bottom__left">
-          <img src={shipIcon} alt="ship icon" />
-          <h2 className="destinations-bottom__heading" >Symphony of the Seas</h2>
-          <p className="destinations-bottom__body" >ROUNDTRIP FROM: Cape Liberty (New York), New Jersey</p>
-          <p className="destinations-bottom__body" ></p>
+        <div className="destinations-bottom">
+          <div className="destinations-bottom__left">
+            <div className="destinations-bottom__ship" >
+
+            
+            <img src={shipIcon} alt="ship icon" />
+            <h2 className="destinations-bottom__heading">
+              Symphony of the Seas
+              </h2>
+              </div>
+            <p className="destinations-bottom__body">
+              ROUNDTRIP FROM: <span>Cape Liberty (New York), New Jersey</span>
+            </p>
+            <p className="destinations-bottom__body"></p>
+          </div>
         </div>
       </div>
 
@@ -86,11 +114,20 @@ function DestinationsCards() {
             <h2>$1,139</h2>
           </div>
         </div>
-        <div className="destinations-bottom__left">
-          <img src={shipIcon} alt="ship icon" />
-          <h2 className="destinations-bottom__heading" >Symphony of the Seas</h2>
-          <p className="destinations-bottom__body" >ROUNDTRIP FROM: Cape Liberty (New York), New Jersey</p>
-          <p className="destinations-bottom__body" ></p>
+        <div className="destinations-bottom">
+          <div className="destinations-bottom__left">
+            <div className="destinations-bottom__ship">
+              <img src={shipIcon} alt="ship icon" />
+              <h2 className="destinations-bottom__heading">
+                Symphony of the Seas
+              </h2>
+            </div>
+
+            <p className="destinations-bottom__body">
+              ROUNDTRIP FROM: <span>Cape Liberty (New York), New Jersey</span>
+            </p>
+            <p className="destinations-bottom__body"></p>
+          </div>
         </div>
       </div>
     </section>
