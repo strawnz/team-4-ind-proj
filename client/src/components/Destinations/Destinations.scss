@@ -20,11 +20,15 @@
     font-weight: 700;
     line-height: 1.6875rem;
   }
+  &-card{
+    margin-bottom: 4rem;
+  }
   &-card1,
   &-card2,
   &-card3,
   &-card4 {
     @include card;
+
     background-repeat: no-repeat;
   }
 
@@ -52,6 +56,7 @@
   }
 
   &-heading {
+    padding-top: 1rem;
     font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
@@ -60,22 +65,28 @@
   }
 
   &-bottom {
+    display: flex;
     height: 10.56rem;
-    width: auto;
+    width: 39.0625rem;
 
     &__left {
       @include flex-column;
       align-items: flex-start;
+      width: 27rem;
+      height: 8.4375rem;
     }
     &__ship {
       display: flex;
     }
     &__heading {
+      margin-left: 0.5rem;
       color: #080464;
       font-size: 1.25rem;
       font-style: normal;
       font-weight: 700;
-      line-height: 2.25rem; /* 180% */
+      line-height: 2.25rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem; /* 180% */
     }
 
     &__body {
@@ -83,11 +94,37 @@
       font-size: 0.9375rem;
       font-style: normal;
       font-weight: 700;
-      line-height: 2.25rem; /* 240% */
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
     }
 
-    span.destinations-bottom__body{
+    span.destinations-bottom__body {
       font-weight: 600;
+    }
+
+    &__right {
+      @include flex-column;
+      justify-content: space-between;
+      margin-left: 2rem;
+      padding-top: 1rem
+    }
+    &__right-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    button {
+      display: flex;
+      width: 8.0625rem;
+      height: 2.75rem;
+      padding: 0.84375rem 2.12813rem 0.90625rem 2.12188rem;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 0.1875rem;
+      background: #005edc;
+      color: #ffffff;
+      border:none;
     }
   }
 }
