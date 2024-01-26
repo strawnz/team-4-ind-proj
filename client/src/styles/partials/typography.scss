@@ -1,23 +1,21 @@
-// Headlines
 @font-face {
-    font-family: 'Kapra';
-    src: url(../../assets/fonts/Kapra/Kapra-Regular.otf) format(opentype);
+    font-family: 'Proxima Nova';
+    src: url(../../assets/fonts/ProximaNova/proximanova_regular.ttf) format(truetype);
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Kapra';
-    src: url(../../assets/fonts/Kapra/Kapra-Bold.otf) format(opentype);
+    font-family: 'Proxima Nova';
+    src: url(../../assets/fonts/ProximaNova/proximanova_bold.otf) format(opentype);
     font-weight: 700;
 }
 
-// Body Copy & CTAs
 @font-face {
-    font-family: 'Darwin';
-    src: url(../../assets/fonts/Darwin/DarwinProLight.otf) format(opentype);
+    font-family: 'Roboto';
+    src: url(../../assets/fonts/Roboto/Roboto-Regular.ttf) format(truetype);
     font-weight: 400;
 }
 @font-face {
-    font-family: 'Darwin';
-    src: url(../../assets/fonts/Darwin/DarwinProRegular.otf) format(opentype);
+    font-family: 'Roboto';
+    src: url(../../assets/fonts/Roboto/Roboto-Bold.ttf) format(truetype);
     font-weight: 700;
 }
