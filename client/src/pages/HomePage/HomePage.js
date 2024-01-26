@@ -8,8 +8,8 @@ function HomePage() {
         <>
             <section>
                 <div className="hero-image">
-            <h1>FIRST CRUISE?</h1>
-            <p>LET'S MAKE IT UNFORGETTABLE!</p>
+                    <h1 className="hero-image__header">FIRST CRUISE?</h1>
+                    <p className="hero-image__p">LET'S MAKE IT UNFORGETTABLE!</p>
                 </div>
                 <MiniNav />
                 <Main />

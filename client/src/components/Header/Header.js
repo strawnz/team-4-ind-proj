@@ -38,7 +38,7 @@ function Header() {
       <div className='image-fill-3'>
         <div className='image-4' />
       </div>
-      <div className='rectangle' />
+      
     </div>
 
         </header>
