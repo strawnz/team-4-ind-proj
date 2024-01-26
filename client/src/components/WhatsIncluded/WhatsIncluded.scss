@@ -1,0 +1,52 @@
+@use '../../styles/partials/global.scss' as *;
+
+.whats-included {
+    background-color: #BFE1DF;
+    padding: 4.5rem 11.5rem 2rem;
+
+    &__heading {
+        color: #15264C;
+        font-family: 'Impact';
+        font-size: 1.81494rem;
+        font-weight: 700;
+        line-height: 2.8875rem; 
+        margin-bottom: 0.5rem;
+    }
+
+    &__body {
+        color: #4A4A4A;
+        font-family: "Proxima Nova";
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        margin-bottom: 4.5rem;
+    }
+
+    &__link {
+        color: #005EDC;
+    }
+
+    &__subheading {
+        color: #15264C;
+        font-family: "Proxima Nova";
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2.25rem;
+        margin-left: 1.25rem;
+        margin-right: 3.5rem;
+    }
+
+    &__features-top {
+        display: flex;
+        width: 100%;
+        margin-bottom: 2.75rem;
+    }
+
+    &__features-bottom {
+        @extend .whats-included__features-top;
+    }
+
+    &__feature-container {
+        display: flex;
+        width: 50%;
+    }
+};

@@ -14,9 +14,206 @@
             letter-spacing: 0.125rem;
             text-transform: uppercase;
     }
+        &__secondary {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        }
 }
-
 
 .country {
     display: flex;
 }
+
+
+
+.main-container {
+    overflow: hidden;
+     
+      background-color: $navy-blue ;
+    }
+    
+    input, select, textarea, button {
+      outline: 0;
+    }
+    
+    //position: relative;
+    //width: 1512px;
+    //height: 982px;
+    //margin: 0 auto;
+    //background: #0c214d;
+    
+    .div-image-fill {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      top: 17.23541259765625px;
+      left: 75px;
+      z-index: 1;
+      overflow: hidden;
+    }
+    
+    .div-image {
+      position: relative;
+      width: 25px;
+      height: 16px;
+      margin: 12px 0 0 7.5px;
+      //background: url(../../assets/images/icons/mag-glass.svg)
+        //no-repeat center;
+      background-size: cover;
+      z-index: 2;
+      overflow: hidden;
+    }
+    
+    .div-link-figure-royal-caribbean-logo-border-svg {
+      position: absolute;
+      width: 156px;
+      height: 41.45000076293945px;
+      top: 50%;
+      left: 145px;
+      transform: translate(0, -50.43%);
+      z-index: 3;
+      overflow: hidden;
+    }
+    
+    .div-royal-caribbean-logo-border-svg-fill {
+      position: absolute;
+      width: 156px;
+      height: 41.45000076293945px;
+      top: 0;
+      left: 0;
+      z-index: 4;
+      overflow: hidden;
+    }
+    
+    .royal-caribbean-logo-border {
+      position: relative;
+      width: 155.9309539794922px;
+      height: 41.45000076293945px;
+      margin: 0 0 0 0.0345458984375px;
+      background: url(../../assets/images/icons/heart.svg);
+       // no-repeat center;
+      background-size: cover;
+      z-index: 5;
+      overflow: hidden;
+    }
+    
+    .nav-link-manage, .nav-link-find, .nav-link-destinations, .nav-link-deals, .nav-link-ships {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      color: #ffffff;
+      font-family: Proxima Nova, var(--default-font-family);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.799999237060547px;
+      text-align: center;
+      text-transform: uppercase;
+      white-space: nowrap;
+      letter-spacing: 2px;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .nav-link-manage {
+      width: 164.027099609375px;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: calc(50% - (-158.09px));
+      z-index: 10;
+    }
+    
+    .nav-link-find {
+      width: 120.88671875px;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: calc(50% - (379px));
+      z-index: 6;
+    }
+    
+    .nav-link-destinations {
+      width: 119.94525146484375px;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: calc(50% - (10.66px));
+      z-index: 9;
+    }
+    
+    .nav-link-deals {
+      width: 52.690406799316406px;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: calc(50% - (209.31px));
+      z-index: 7;
+    }
+    
+    .nav-link-ships {
+      width: 48.29671859741211px;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: calc(50% - (107.8px));
+      z-index: 8;
+    }
+    
+    .nav-link-sign-in {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      height: 17px;
+      top: 30.41546630859375px;
+      left: 1307px;
+      text-align: left;
+      z-index: 17;
+    }
+    
+    .image-fill, .image-fill-1, .image-fill-3 {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      top: 50%;
+      left: 50%;
+      z-index: 12;
+      overflow: hidden;
+    }
+    
+    .image, .image-2, .image-4 {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      top: 50%;
+      left: 50%;
+      background-size: cover;
+      transform: translate(-50%, -50%);
+      z-index: 13;
+      overflow: hidden;
+    }
+    
+    .image-fill {
+      transform: translate(2921.38%, -51.09%);
+    }
+    
+    .image-2 {
+      background: url(../../assets/images/icons/bell.svg);
+       // no-repeat center;
+    }
+    
+    .image-fill-1 {
+      transform: translate(3181.38%, -51.09%);
+    }
+    
+    .image-fill-3 {
+      transform: translate(4043.75%, -51.09%);
+    }
+    
+    .rectangle {
+      position: absolute;
+      width: 1512px;
+      height: 352px;
+      top: 80px;
+      left: 0;
+      background: url(../../assets/images/icons/mag-glass.svg);
+        //no-repeat center;
+      background-size: cover;
+      z-index: 21;
+    }
+  
+  
