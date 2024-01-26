@@ -15,19 +15,19 @@ function MiniNav() {
                 <Link to="/" className='mini-nav__link'>NEW TO CRUISE</Link>
             </div>
             <div className={`mini-nav__item ${isActive('/destinations')}`}>
-                <Link to="/destinations">DESTINATIONS</Link>
+                <Link to="/destinations" className='mini-nav__link'>DESTINATIONS</Link>
             </div>
-            <div className="mini-nav__item">
-                <Link to="">ACCOMMODATIONS</Link>
+            <div className={`mini-nav__item ${isActive('/accommodations')}`}>
+                <Link to="/accommodations">ACCOMMODATIONS</Link>
             </div>
-            <div className="mini-nav__item">
-                <Link to="">ONBOARD ACTIVITIES</Link>
+            <div className={`mini-nav__item ${isActive('/activities')}`}>
+                <Link to="/activities">ONBOARD ACTIVITIES</Link>
             </div>
-            <div className="mini-nav__item">
-                <Link to="">EXCURSIONS</Link>
+            <div className={`mini-nav__item ${isActive('/excursions')}`}>
+                <Link to="/excursions">EXCURSIONS</Link>
             </div>
-            <div className="mini-nav__item">
-                <Link to="">FINANCING</Link>
+            <div className={`mini-nav__item ${isActive('/financing')}`}>
+                <Link to="/financing">FINANCING</Link>
             </div>
         </div>
         </>

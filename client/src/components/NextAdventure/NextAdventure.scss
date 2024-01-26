@@ -26,5 +26,11 @@
         line-height: 1.6875;
         color: #020367;
         ;
+
+        &:hover {
+            background-color: #020367;
+            color: #FDBE11;
+            box-shadow: 0 0 15px white
+        }
     }
 }

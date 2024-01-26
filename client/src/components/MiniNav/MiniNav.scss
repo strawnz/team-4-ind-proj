@@ -18,15 +18,13 @@
         text-transform: uppercase;
         padding-right: 2rem;
         padding-top: 2rem;
-
-        &.active {
-            &__link {
-                border-bottom: 0.125rem solid #15264C;
-            }
-        }
     }
+}    
 
-    &__link {
-            border-bottom: 0.125rem solid #15264C;
-        }
+.mini-nav__item.active .mini-nav__link {
+    text-decoration: underline;
+}
+
+.mini-nav__link:hover {
+    transform: scale(1.1);
 }

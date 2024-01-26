@@ -7,6 +7,7 @@
     background-image: url(../../assets/images/icons/hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    transform: scaleX(-1);
 
     &__header {
         color: #FFF;
@@ -17,6 +18,7 @@
         line-height: 6rem;
         padding-top: 10rem;
         padding-left: 3rem;
+        transform: scaleX(-1);
     }
 
     &__p {
@@ -28,5 +30,6 @@
         line-height: 2.025rem;
         letter-spacing: 0.125rem;
         padding-left: 3rem;
+        transform: scaleX(-1);
     }
 }

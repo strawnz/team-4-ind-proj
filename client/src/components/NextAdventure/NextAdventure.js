@@ -5,7 +5,7 @@ function NextAdventure() {
     return (
         <>
             <section className="next-adventure">
-                <h2>ready for your next <br/> adventure</h2>
+                <h2>ready for your next <br/> adventure?</h2>
                 <Link to="/destinations" className="button">Discover Now</Link>
             </section>
         </>
