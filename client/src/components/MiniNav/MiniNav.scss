@@ -1,9 +1,10 @@
 @use '../../styles/partials/global.scss' as *;
 
 .mini-nav {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 5rem;
+    margin-bottom: 5rem;
 
     &__item {
         display: flex;
@@ -17,7 +18,12 @@
         text-transform: uppercase;
         padding-right: 2rem;
         padding-top: 2rem;
-        margin-left: 5rem;
+
+        &.active {
+            &__link {
+                border-bottom: 0.125rem solid #15264C;
+            }
+        }
     }
 
     &__link {
