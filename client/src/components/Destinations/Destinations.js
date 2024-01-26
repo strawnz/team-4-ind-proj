@@ -5,7 +5,7 @@ import downloadIcon from "../../assets/svg/mynaui_download.svg";
 function DestinationsCards() {
   return (
     <section className="destinations">
-      <div>
+      <div className="destinations-card">
         <div className="destinations-card1" alt="caribbean beach">
           <div className="destinations-details">
             <button className="destinations-button" disabled>
@@ -22,23 +22,32 @@ function DestinationsCards() {
         </div>
         <div className="destinations-bottom">
           <div className="destinations-bottom__left">
-            <div className="destinations-bottom__ship" >
-
-            
-            <img src={shipIcon} alt="ship icon" />
-            <h2 className="destinations-bottom__heading">
-              Symphony of the Seas
+            <div className="destinations-bottom__ship">
+              <img src={shipIcon} alt="ship icon" />
+              <h2 className="destinations-bottom__heading">
+                Symphony of the Seas
               </h2>
-              </div>
+            </div>
             <p className="destinations-bottom__body">
               ROUNDTRIP FROM:<span> Cape Liberty (New York), New Jersey</span>
             </p>
-            <p className="destinations-bottom__body"></p>
+            <p className="destinations-bottom__body">
+              VISITING:<span></span> Orlando (Port Canaveral), Florida • Perfect
+              Day at CocoCay, Bahamas • Cozumel, Mexico • Roatan, Honduras •
+              Puerto Costa Maya, Mexico • Orlando, Florida
+            </p>
+          </div>
+          <div className="destinations-bottom__right">
+            <div className="destinations-bottom__right-icons">
+              <img src={heartIcon} alt="heart icon" />
+              <img src={downloadIcon} alt="download icon" />
+            </div>
+            <button>EXPLORE</button>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className="destinations-card">
         <div className="destinations-card2" alt="caribbean carnival">
           <div className="destinations-details">
             <button className="destinations-button" disabled>
@@ -55,22 +64,35 @@ function DestinationsCards() {
         </div>
         <div className="destinations-bottom">
           <div className="destinations-bottom__left">
-            <div className="destinations-bottom__ship" >
-
-            
-            <img src={shipIcon} alt="ship icon" />
-            <h2 className="destinations-bottom__heading">
-              Symphony of the Seas
+            <div className="destinations-bottom__ship">
+              <img src={shipIcon} alt="ship icon" />
+              <h2 className="destinations-bottom__heading">
+                Symphony of the Seas
               </h2>
-              </div>
+            </div>
             <p className="destinations-bottom__body">
               ROUNDTRIP FROM: <span>Orlando (Port Canaveral), Florida</span>
             </p>
-            <p className="destinations-bottom__body"></p>
+            <p className="destinations-bottom__body">
+              VISITING:
+              <span>
+                {" "}
+                Orlando (Port Canaveral), Florida • Perfect Day at CocoCay,
+                Bahamas • Cozumel, Mexico • Roatan, Honduras • Puerto Costa
+                Maya, Mexico • Orlando, Florida
+              </span>
+            </p>
+          </div>
+          <div className="destinations-bottom__right">
+            <div className="destinations-bottom__right-icons">
+              <img src={heartIcon} alt="heart icon" />
+              <img src={downloadIcon} alt="download icon" />
+            </div>
+            <button>EXPLORE</button>
           </div>
         </div>
       </div>
-      <div>
+      <div className="destinations-card">
         <div className="destinations-card3" alt="bahamanian beach">
           <div className="destinations-details">
             <button className="destinations-button" disabled>
@@ -85,23 +107,36 @@ function DestinationsCards() {
         </div>
         <div className="destinations-bottom">
           <div className="destinations-bottom__left">
-            <div className="destinations-bottom__ship" >
-
-            
-            <img src={shipIcon} alt="ship icon" />
-            <h2 className="destinations-bottom__heading">
-              Symphony of the Seas
+            <div className="destinations-bottom__ship">
+              <img src={shipIcon} alt="ship icon" />
+              <h2 className="destinations-bottom__heading">
+                Symphony of the Seas
               </h2>
-              </div>
+            </div>
             <p className="destinations-bottom__body">
               ROUNDTRIP FROM: <span>Cape Liberty (New York), New Jersey</span>
             </p>
-            <p className="destinations-bottom__body"></p>
+            <p className="destinations-bottom__body">
+              VISITING:
+              <span>
+                {" "}
+                Cape Liberty (New York), New Jersey • Orlando (Port Canaveral),
+                Florida • Perfect Day at CocoCay, Bahamas • Labadee, Haiti, Cape
+                Liberty (New York), New Jersey
+              </span>
+            </p>
+          </div>
+          <div className="destinations-bottom__right">
+            <div className="destinations-bottom__right-icons">
+              <img src={heartIcon} alt="heart icon" />
+              <img src={downloadIcon} alt="download icon" />
+            </div>
+            <button>EXPLORE</button>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className="destinations-card">
         <div className="destinations-card4" alt="southern caribbean coast">
           <div className="destinations-details">
             <button className="destinations-button" disabled>
@@ -126,7 +161,22 @@ function DestinationsCards() {
             <p className="destinations-bottom__body">
               ROUNDTRIP FROM: <span>Cape Liberty (New York), New Jersey</span>
             </p>
-            <p className="destinations-bottom__body"></p>
+            <p className="destinations-bottom__body">
+              VISITING:
+              <span>
+                {" "}
+                Cape Liberty (New York), New Jersey • Orlando (Port Canaveral),
+                Florida • Perfect Day at CocoCay, Bahamas • Labadee, Haiti, Cape
+                Liberty (New York), New Jersey
+              </span>
+            </p>
+          </div>
+          <div className="destinations-bottom__right">
+            <div className="destinations-bottom__right-icons">
+              <img src={heartIcon} alt="heart icon" />
+              <img src={downloadIcon} alt="download icon" />
+            </div>
+            <button>EXPLORE</button>
           </div>
         </div>
       </div>
